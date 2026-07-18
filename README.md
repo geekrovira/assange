@@ -2,6 +2,8 @@
 
 Landing page conmemorativa e informativa sobre la vida de Julian Assange: su origen, la fundación de WikiLeaks, las grandes filtraciones (Collateral Murder, Cablegate, Vault 7...), su persecución legal y su legado.
 
+🔗 **Ver la página en vivo:** [geekrovira.github.io/assange](https://geekrovira.github.io/assange/)
+
 ## Por qué se creó
 
 La historia de Assange atraviesa temas centrales para cualquiera interesado en tecnología y seguridad: cifrado, protección de fuentes, filtraciones masivas de datos y el choque entre transparencia y poder. Este proyecto nació como ejercicio de diseño web para contar esa historia con una estética visual coherente con el propio tema: la de un centro de datos y un expediente clasificado, en vez de una página informativa convencional.
