@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julian Assange — Expediente</title>
+<meta name="description" content="Una crónica visual sobre Julian Assange y WikiLeaks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+<div class="noise-overlay" aria-hidden="true"></div>
+<div class="scanline" aria-hidden="true"></div>
+
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<nav class="navbar glass" id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-bracket">[</span>ASSANGE<span class="logo-bracket">]</span>
+      <span class="logo-status"><span class="dot"></span>ARCHIVO_ACTIVO</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#origen">01 / Origen</a></li>
+      <li><a href="#wikileaks">02 / WikiLeaks</a></li>
+      <li><a href="#filtraciones">03 / Filtraciones</a></li>
+      <li><a href="#persecucion">04 / Persecución</a></li>
+      <li><a href="#legado">05 / Legado</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-bg">
+    <div class="server-rack" aria-hidden="true">
+      <div class="rack-col"></div>
+      <div class="rack-col"></div>
+      <div class="rack-col"></div>
+      <div class="rack-col"></div>
+      <div class="rack-col"></div>
+      <div class="rack-col"></div>
+    </div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="pretitle glass-pill"><span class="dot"></span>DOSSIER 0x4A41 // NIVEL DE ACCESO: PÚBLICO</p>
+        <h1 class="hero-title">
+          <span class="title-line">JULIAN</span>
+          <span class="title-line title-accent">ASSANGE</span>
+        </h1>
+        <p class="hero-subtitle">Periodista, programador y fundador de WikiLeaks. La historia del hombre que puso en jaque los secretos del poder global.</p>
+        <div class="hero-meta">
+          <div class="meta-card glass">
+            <span class="meta-label">NACIMIENTO</span>
+            <span class="meta-value">03.07.1971</span>
+          </div>
+          <div class="meta-card glass">
+            <span class="meta-label">ORIGEN</span>
+            <span class="meta-value">Townsville, Australia</span>
+          </div>
+          <div class="meta-card glass">
+            <span class="meta-label">ESTADO</span>
+            <span class="meta-value meta-live"><span class="dot"></span>LIBERADO — 06.2024</span>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero-portrait glass">
+        <span class="hp-corner tl"></span>
+        <span class="hp-corner tr"></span>
+        <span class="hp-corner bl"></span>
+        <span class="hp-corner br"></span>
+        <div class="hp-frame">
+          <img src="assets/julian-assange.jpg" alt="Retrato de Julian Assange" loading="lazy" width="900" height="680">
+          <div class="hp-scan"></div>
+          <div class="hp-hud">
+            <span>ID // MENDAX</span>
+            <span>SUJETO_LOCALIZADO</span>
+          </div>
+        </div>
+        <figcaption>
+          <span class="dot"></span>Foto: Julian Assange &amp; Martina Haris · dominio público · Wikimedia Commons
+        </figcaption>
+      </figure>
+    </div>
+
+    <a href="#origen" class="scroll-cta">
+      <span>DESPLAZAR PARA DESCIFRAR</span>
+      <span class="scroll-line"></span>
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <section class="section" id="origen">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>Origen</h2>
+      <span class="section-tag">// LOG_INICIAL.txt</span>
+    </div>
+    <div class="content-grid">
+      <div class="glass panel panel-lg">
+        <p>Julian Paul Assange nació el 3 de julio de 1971 en Townsville, Queensland, Australia. Su infancia fue itinerante: se mudó de ciudad en ciudad, lo que él mismo describió como una educación no convencional, marcada por la curiosidad y el autodidactismo.</p>
+        <p>Desde muy joven mostró una fascinación por los sistemas informáticos. A los 16 años, bajo el alias <em>Mendax</em>, comenzó a explorar redes de computadoras, convirtiéndose en uno de los hackers más hábiles de su generación en un momento en que internet apenas comenzaba a tejer sus primeras conexiones globales.</p>
+      </div>
+      <div class="glass panel stat-panel">
+        <div class="stat-block">
+          <span class="stat-number">16</span>
+          <span class="stat-label">años cuando adoptó el alias "Mendax"</span>
+        </div>
+        <div class="divider"></div>
+        <div class="stat-block">
+          <span class="stat-number">37</span>
+          <span class="stat-label">ciudades / escuelas distintas en su infancia</span>
+        </div>
+        <div class="divider"></div>
+        <div class="stat-block">
+          <span class="stat-number">1991</span>
+          <span class="stat-label">Investigado por acceso a la red de Nortel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="wikileaks">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>WikiLeaks</h2>
+      <span class="section-tag">// FUNDACION_2006.log</span>
+    </div>
+    <div class="content-grid reverse">
+      <div class="glass panel terminal-panel">
+        <div class="terminal-bar">
+          <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+          <span class="terminal-title">wikileaks.org — root@mendax</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="out">Julian Assange, fundador</p>
+          <p><span class="prompt">$</span> init wikileaks --year=2006</p>
+          <p class="out">Plataforma de filtración de documentos inicializada.</p>
+          <p class="out">Misión: transparencia radical sin fronteras.</p>
+          <p><span class="prompt">$</span> status</p>
+          <p class="out ok">[OK] Fuentes protegidas mediante cifrado</p>
+          <p class="out ok">[OK] Verificación editorial activa</p>
+          <p class="out blink">_</p>
+        </div>
+      </div>
+      <div class="glass panel panel-lg">
+        <p>En 2006, Assange fundó WikiLeaks, una organización dedicada a publicar documentos clasificados y filtraciones de gobiernos y corporaciones de todo el mundo, protegiendo el anonimato de sus fuentes mediante tecnologías criptográficas avanzadas.</p>
+        <p>La plataforma se construyó sobre una idea radical: que la transparencia total sobre el ejercicio del poder era un derecho democrático fundamental. En pocos años, WikiLeaks se convirtió en un actor global capaz de sacudir gobiernos, ejércitos y corporaciones con una sola publicación.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="filtraciones">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Las Grandes Filtraciones</h2>
+      <span class="section-tag">// ARCHIVOS_CLASIFICADOS/</span>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-line"></div>
+
+      <div class="timeline-item glass">
+        <span class="timeline-year">2010</span>
+        <h3>Collateral Murder</h3>
+        <p>Video de un ataque aéreo estadounidense en Bagdad en 2007 que mató a civiles, incluidos dos periodistas de Reuters. Su publicación causó conmoción mundial y puso a WikiLeaks en el centro del debate global.</p>
+        <span class="timeline-tag">VIDEO // IRAK</span>
+      </div>
+
+      <div class="timeline-item glass">
+        <span class="timeline-year">2010</span>
+        <h3>Afghan War Diary</h3>
+        <p>Más de 75.000 documentos militares clasificados sobre la guerra de Afganistán, revelando bajas civiles no reportadas y la magnitud real del conflicto.</p>
+        <span class="timeline-tag">DOCS // AFGANISTÁN</span>
+      </div>
+
+      <div class="timeline-item glass">
+        <span class="timeline-year">2010</span>
+        <h3>Iraq War Logs</h3>
+        <p>Casi 400.000 informes de campo del ejército de EE.UU. sobre la guerra de Irak, la mayor filtración militar de la historia hasta ese momento.</p>
+        <span class="timeline-tag">DOCS // IRAK</span>
+      </div>
+
+      <div class="timeline-item glass">
+        <span class="timeline-year">2010</span>
+        <h3>Cablegate</h3>
+        <p>Más de 250.000 cables diplomáticos estadounidenses filtrados en colaboración con medios como The Guardian, The New York Times y El País, exponiendo la diplomacia real detrás de la retórica oficial.</p>
+        <span class="timeline-tag">CABLES // GLOBAL</span>
+      </div>
+
+      <div class="timeline-item glass">
+        <span class="timeline-year">2017</span>
+        <h3>Vault 7</h3>
+        <p>Documentos que detallaban las herramientas y técnicas de ciberespionaje de la CIA, una de las mayores filtraciones sobre capacidades de inteligencia jamás publicadas.</p>
+        <span class="timeline-tag">CIBER // CIA</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="persecucion">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Persecución y Encierro</h2>
+      <span class="section-tag">// ESTADO_LEGAL.sys</span>
+    </div>
+
+    <div class="content-grid">
+      <div class="glass panel panel-lg">
+        <p>Tras las filtraciones de 2010, Assange se convirtió en objetivo de una intensa presión legal y política. En 2012 se refugió en la embajada de Ecuador en Londres, donde permaneció durante casi <strong>siete años</strong> para evitar su extradición.</p>
+        <p>En abril de 2019, tras la retirada del asilo diplomático, fue arrestado por la policía británica y recluido en la prisión de alta seguridad de Belmarsh, mientras Estados Unidos solicitaba su extradición bajo cargos relacionados con la Ley de Espionaje.</p>
+        <p>El caso se convirtió en un símbolo global del debate entre la seguridad nacional y la libertad de prensa, con organizaciones de derechos humanos y periodistas de todo el mundo denunciando el proceso como un ataque al periodismo de investigación.</p>
+      </div>
+      <div class="glass panel stat-panel">
+        <div class="stat-block">
+          <span class="stat-number">7</span>
+          <span class="stat-label">años refugiado en la embajada de Ecuador (2012–2019)</span>
+        </div>
+        <div class="divider"></div>
+        <div class="stat-block">
+          <span class="stat-number">5</span>
+          <span class="stat-label">años recluido en la prisión de Belmarsh</span>
+        </div>
+        <div class="divider"></div>
+        <div class="stat-block">
+          <span class="stat-number">2024</span>
+          <span class="stat-label">Liberado tras un acuerdo de culpabilidad con EE.UU.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="legado">
+    <div class="section-head">
+      <span class="section-index">05</span>
+      <h2>Legado</h2>
+      <span class="section-tag">// ARCHIVO_FINAL.dat</span>
+    </div>
+
+    <div class="glass panel legacy-panel">
+      <p>El 24 de junio de 2024, Julian Assange fue liberado tras alcanzar un acuerdo de culpabilidad con el Departamento de Justicia de Estados Unidos, poniendo fin a más de una década de procesos legales, reclusión y exilio autoimpuesto.</p>
+      <p>Su historia sigue siendo objeto de un intenso debate: para algunos, un héroe de la transparencia y la libertad de información; para otros, una figura controvertida que puso en riesgo operaciones y vidas. Lo innegable es que WikiLeaks transformó para siempre la relación entre el periodismo, el poder y la información en la era digital.</p>
+    </div>
+
+    <div class="quote-block glass">
+      <span class="quote-mark">"</span>
+      <p>Cada persona que quiera hacer algo bien necesita coraje.</p>
+      <span class="quote-author">— Julian Assange</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer glass">
+  <div class="footer-inner">
+    <p>Página conmemorativa e informativa · Contenido con fines educativos.</p>
+    <p class="footer-signature">// EOF — fin del expediente</p>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const navbar = document.getElementById('navbar');
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+  });
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+    });
+  });
+
+  const cursorGlow = document.querySelector('.cursor-glow');
+  window.addEventListener('mousemove', (e) => {
+    cursorGlow.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+  });
+
+  const revealEls = document.querySelectorAll('.panel, .timeline-item, .quote-block, .meta-card, .section-head');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('reveal-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  revealEls.forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+  });
+});
+</script>
+
+</body>
+</html>
